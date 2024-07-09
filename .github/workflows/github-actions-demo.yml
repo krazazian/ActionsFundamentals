@@ -5,12 +5,12 @@ on:
     branches: 
     - main
     paths-ignore: 
-    - ".github/**"
+    - .github/**
   pull_request:
     branches: 
     - main
   schedule:
-    - cron: "15 6 * * SUN"
+    - cron: '15 6 * * SUN'
   workflow_dispatch:
 
 jobs: 
